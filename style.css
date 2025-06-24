@@ -1,0 +1,80 @@
+/* Base and body style from previous reply */
+body
+{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #121212;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 1rem;
+}
+
+.container
+{
+  max-width: 480px;
+}
+
+h1
+{
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.description
+{
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #bbb;
+  line-height: 1.4;
+}
+
+.buttons
+{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+button
+{
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  padding: 0.75em 2em;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 3px 8px rgb(30 144 255 / 0.4);
+  user-select: none;
+}
+
+button:hover,
+button:focus
+{
+  background-color: #63a4ff;
+  box-shadow: 0 5px 15px rgb(99 164 255 / 0.6);
+  outline: none;
+}
+
+button:active
+{
+  background-color: #0d62d5;
+  box-shadow: 0 2px 6px rgb(13 98 213 / 0.8);
+}
+
+footer small
+{
+  color: #777;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+}

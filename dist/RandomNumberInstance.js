@@ -1,0 +1,1 @@
+class t{min;max;generatedNumber=0;constructor(e,r){this.min=e,this.max=r,t.generateNumberFor(this)}static generateNumberFor(e){e.generatedNumber=Math.random()*(e.max-e.min)+e.min}get value(){return this.generatedNumber}}export{t as R};
